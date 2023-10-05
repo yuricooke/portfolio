@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&family=Open+Sans&display=swap');
+
+
+:root{
+  --primary: #f49818;
+}
+
+
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #090909;
+}
+
+
+h1 {
+  font-family: 'Armata', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: var(--primary)
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.highlight {
+  background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color, #333 ) 0);
+  background-size: 200%;
+  background-position: 0;
+  transition: background-position 2s;
+  color: var(--primary);
+
+}
+
+.highlight.highlighted {
+  background-position: -100%
+}
+
+
+.line {
+  margin: 15px 0;
+  border: 1px solid #222222;
+  max-width: 60vw;
+}
+
+/* App.css */
+.app {
+  display: flex;
+  background-color: #090909;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  padding: 30px;
+  background-color: #090909;
+  color: #fff;
+  max-width: 100px;
+  z-index: 10;
+  position: fixed;
+  height: 100%; /* Make it cover the full height of the viewport */
+  gap: 20px;
+
+}
+.nav-item figcaption {
+  font-size: 0.8rem;
+  font-family: 'Armata', sans-serif;
+  display: none;
+}
+
+.nav-item:hover figcaption {
+  display: block;
+}
+
+
+.nav-bar hr {
+  border: 1px solid #f49818;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-item a {
+  color: #CCC;
+  cursor: pointer;
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: var(--primary);
+}
+
+
+.nav-item:hover a {
+  color: var(--primary);
+}
+.components {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-x: hidden;
+  padding-left: 5%;
+  background-color: #090909;
+
+}
+
+@media screen and (max-width: 600px) {
+
+h1 {
+  font-size: 2rem;
+}
+
+.nav-bar {
+  display: none;
+ 
+
+}
+}

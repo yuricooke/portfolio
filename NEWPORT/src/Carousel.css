@@ -1,0 +1,59 @@
+/* Carousel.css */
+.carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal overflow */
+    scrollbar-width: none; /* Hide scrollbars for browsers that support it */
+    -ms-overflow-style: none; /* Hide scrollbars for Internet Explorer */
+    padding: 5px 0px 5px 20px;
+    background-color: #090909;
+
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none; /* Hide scrollbars for Webkit-based browsers (Chrome, Safari, etc.) */
+  }
+  
+  .card {
+    width: 250px; /* Adjust card width as needed */
+    margin-right: 20px; /* Add some space between cards */
+    background-color: #090909;
+
+
+  }
+  /* Add these styles to your Carousel.css */
+.arrows{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 2%; /* Add some margin between the carousel and the buttons */
+
+}
+
+.arrow-button {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);/* Background color for the arrow buttons */
+  border: 1px solid #999; /* Border color for the arrow buttons */
+  border-radius: 8px; /* Make the buttons circular */
+  height: 25px; /* Adjust the height as needed */
+  width: 40px; /* Adjust the width as needed */
+  margin: 3px 6px; /* Add some margin between the carousel and the buttons */
+  transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.arrow-button.left {
+  margin-left: 0;
+}
+
+.arrow-button.right {
+  margin-right: 0;
+}
+

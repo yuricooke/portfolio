@@ -1,0 +1,27 @@
+
+.footer{
+    padding: 2% ;
+    color: #111;
+    background-color: var(--primary);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5%;
+    padding-left: 10%;
+    width: 100%;
+  z-index: 20;
+  position: relative;
+
+}
+
+
+
+h2,h3 {
+  font-family: 'Armata', sans-serif;
+}
+
+
+.icon-footer {
+margin-right: 5px;
+ color: #111 !important;
+}

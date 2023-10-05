@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata:wght@300;400;500&display=swap');
+
+
+.box {
+  position: relative;
+  min-width: 250px;
+  max-height: 150px;
+  padding: 0px;
+  margin: 2px 8px;
+  background-color: #090909;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 8px rgba(173, 173, 173, 0.5);
+  cursor: pointer;
+  overflow: hidden; /* Hide overflow to contain the image */
+  font-family: 'Armata', sans-serif;
+
+}
+
+.box img {
+  width: 100%; /* Make the image 100% of the parent container */
+  height: 100%; /* Maintain the aspect ratio */
+  object-fit: cover; /* Apply cover effect to the image */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35); /* Transparent overlay, initially */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  opacity: 0; /* Hidden initially */
+  transition: opacity 0.3s;
+  
+}
+
+.box:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+  box-shadow: inset 0 0 2px rgba(242, 240, 240, 0.6);
+
+
+}
+
+.overlay h6 {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: white;
+  font-size: 0.8rem;
+  width: 100%;
+ 
+}

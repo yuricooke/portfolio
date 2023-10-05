@@ -1,0 +1,23 @@
+
+.academico{
+    padding: 0% 5%;
+    color: aliceblue;
+  background-color: #090909;
+
+}
+
+h2,h3 {
+  font-family: 'Armata', sans-serif;
+
+}
+.row {
+    display: inline-flex;
+    align-items: center;
+    margin: 3% 0;
+    gap: 2.5% ;
+    width: 100%;
+}
+.puc-logo{
+    max-height: 7rem ;
+    width: auto;
+}

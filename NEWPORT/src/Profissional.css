@@ -28,7 +28,13 @@ h2,h3 {
 @media screen and (max-width: 600px) {
 
   .logo{
-    max-height: 1rem;
+    max-height: 1.2rem;
     width: auto;
 }
+
+.profissional{
+  padding: 3% 0%;
+
+}
+
 }

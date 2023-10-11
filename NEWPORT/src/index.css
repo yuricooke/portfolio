@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;800&family=Open+Sans&display=swap');
 
 
 :root{
@@ -23,7 +23,7 @@ h1 {
   font-family: 'Armata', sans-serif;
   font-size: 3rem;
   margin-bottom: 12px;
-  color: var(--primary)
+  font-weight: 800;
 }
 
 p{
@@ -60,11 +60,12 @@ p{
 .nav-bar {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   position: static;
   padding: 30px;
   background-color: #090909;
   color: #fff;
-  max-width: 100px;
+  max-width: 80px;
   z-index: 10;
   position: fixed;
   height: 100%; /* Make it cover the full height of the viewport */
@@ -83,14 +84,14 @@ p{
 
 
 .nav-bar hr {
+  display: flex;
+  align-items: center;
   border: 1px solid #f49818;
-  width: 100%;
-  margin: 0;
+  width: 25px;
 }
 
 .nav-item {
   cursor: pointer;
-  margin: 5px 0px;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -99,10 +100,9 @@ p{
 .nav-item a {
   color: #CCC;
   cursor: pointer;
-  margin: 5px 0px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
   text-decoration: none;
 }
 

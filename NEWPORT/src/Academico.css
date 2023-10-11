@@ -21,3 +21,11 @@ h2,h3 {
     max-height: 7rem ;
     width: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .academico{
+
+    padding: 3% 0%;
+  }
+
+}

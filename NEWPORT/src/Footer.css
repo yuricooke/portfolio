@@ -25,3 +25,14 @@ h2,h3 {
 margin-right: 5px;
  color: #111 !important;
 }
+
+
+.icon-footer:hover {
+  margin-right: 5px;
+   color: #555 !important;
+  }
+
+.col-r, .col-m{
+  text-align: center;
+
+}

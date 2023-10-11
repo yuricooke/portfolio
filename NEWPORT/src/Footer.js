@@ -40,7 +40,7 @@ const Footer = ({ onFooterLinkClick }) => {
       </div>
       <div className='col-r'>
         <h3>&nbsp;</h3>
-        <p>Download my CV<br/>
+        <p>My Curriculum:<br/>
         <a href={resumeLink} className='icon-footer' target="_blank" rel="noopener noreferrer">
           <FileOpenIcon />
         </a></p>

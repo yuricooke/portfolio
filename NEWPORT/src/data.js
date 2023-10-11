@@ -232,10 +232,10 @@ const projectsData = [
   {
     id: 8,
     title: "Embapax ",
-    url: "http://www.embapax.com.br",
-    imageUrl: "http://embapax.com.br/assets/img/hero/exemplo1.jpg",
+    url: "https://www.embapax.com.br",
+    imageUrl: "https://www.yuricooke.com/logos/exemplo1.jpg",
     description: "Home page & portfolio  - Embapax",
-    logo: "http://embapax.com.br/assets/img/hero/logo.png",
+    logo: "https://www.yuricooke.com/logos/logo.png",
 
     publicationDate: "2023-09-20",
     author: "Yuri Cooke",

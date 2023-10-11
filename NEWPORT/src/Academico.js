@@ -12,7 +12,7 @@ const Academico = () => {
         <p>PUC-Rio, Desenvolvimento Fullstack </p>
       </div>
       <div>
-        <h2>Graduação</h2>
+        <h2>Graduation</h2>
         <p>PUC-Rio, Visual Design </p>
       </div>
       </div>

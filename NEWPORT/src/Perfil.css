@@ -63,14 +63,14 @@
 }
 
 .intro p {
-  margin-bottom: 0.9rem;
   font-size: 1.2rem;
   color: aliceblue;
+  margin-bottom: 0;
+
 }
 
 .intro h3 {
   font-size: 1.5rem;
-  color: var(--primary);
 
 }
 

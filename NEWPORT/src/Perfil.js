@@ -12,7 +12,7 @@ const Perfil = () => {
         <div className="block">
           <h1>Yuri Cooke</h1>
           <h2 className="icon-line">
-            Fullstack Developer{" "}
+            Frontend Developer{" "}
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
               <GitHubIcon className="icon" />
             </a>
@@ -25,7 +25,7 @@ const Perfil = () => {
       <hr className="line" />
       <div className="intro">
         <h3>Hi, guys!</h3>
-        <p>I`m Yuri Cooke. Born in Rio de Janeiro, Brasil.</p>
+        <p>I`m Yuri Cooke. Born in Rio de Janeiro, Brazil.</p>
         <p>
           I`m a{" "}
           <span className="highlight highlighted">

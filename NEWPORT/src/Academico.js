@@ -9,7 +9,7 @@ const Academico = () => {
         <img className="puc-logo" src="https://www.puc-rio.br/imagens/Brasao_PUC_aAusjal_Jesuitas_2023-final-branco.png" alt="logo PUC" ></img>
       <div>
         <h2>Masters</h2>
-        <p>PUC-Rio, Desenvolvimento Fullstack </p>
+        <p>PUC-Rio, Fullstack Development </p>
       </div>
       <div>
         <h2>Graduation</h2>

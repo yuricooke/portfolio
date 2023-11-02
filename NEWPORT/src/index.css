@@ -4,20 +4,14 @@
 
 :root{
   --primary: #f49818;
-}
-
-
-
-* {
-  padding: 0;
-  box-sizing: border-box;
 
 }
+
 
 body {
   background-color: #090909;
+  margin: 0;
 }
-
 
 h1 {
   font-family: 'Armata', sans-serif;
@@ -32,95 +26,38 @@ p{
 
 
 .highlight {
-  background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color, #333 ) 0);
   background-size: 200%;
-  background-position: 0;
-  transition: background-position 2s;
-  color: var(--primary);
-
+  border-radius: 3px;
+  padding: 0 5px;
+  
 }
 
 .highlight.highlighted {
-  background-position: -100%
+  background-image: linear-gradient(90deg,rgba(0,0,0,0) 50%,var(--text-highlight-color, #444 ) 0);
+  color: var(--primary);
+  background-position: -100%;
+  transition: background-position ease-in-out 3s;
+
 }
 
 
-.line {
-  margin: 15px 0;
-  border: 1px solid #222222;
-  max-width: 60vw;
-}
-
-/* App.css */
 .app {
   display: flex;
-  background-color: #090909;
-}
-
-.nav-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: static;
-  padding: 30px;
-  background-color: #090909;
-  color: #fff;
-  max-width: 80px;
-  z-index: 10;
-  position: fixed;
-  height: 100%; /* Make it cover the full height of the viewport */
-  gap: 20px;
+  justify-content: flex-start;
+  overflow-y: hidden;
 
 }
-.nav-item figcaption {
-  font-size: 0.8rem;
-  font-family: 'Armata', sans-serif;
-  display: none;
-}
 
-.nav-item:hover figcaption {
-  display: block;
-}
-
-
-.nav-bar hr {
-  display: flex;
-  align-items: center;
-  border: 1px solid #f49818;
-  width: 25px;
-}
-
-.nav-item {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.nav-item a {
-  color: #CCC;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  text-decoration: none;
-}
-
-.nav-item:hover {
-  color: var(--primary);
-}
-
-
-.nav-item:hover a {
-  color: var(--primary);
-}
 .components {
+  margin-left: 5rem;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
   overflow-x: hidden;
-  padding-left: 5%;
+  overflow-y: scroll;
+
   background-color: #090909;
+    overflow-y: auto; /* Enable vertical scrolling for content */
+
 
 }
 
@@ -130,9 +67,4 @@ h1 {
   font-size: 2rem;
 }
 
-.nav-bar {
-  display: none;
- 
-
-}
 }

@@ -3,7 +3,6 @@ import './Background.css';
 
 const Background = ({
   backgroundImage,
-  onDemoButtonClick,
   logo, // Add the logo prop
   description, // Add the description prop
   demoUrl, // Add the demoUrl prop
@@ -18,7 +17,8 @@ const Background = ({
         <h3>YURI COOKE</h3>
         <h1>Projects</h1>
         <img src={logo} alt="Logo" /> {/* Use the logo prop */}
-        <p>{description}</p> {/* Use the description prop */}
+        <p dangerouslySetInnerHTML={{ __html: description }} />
+
         <button onClick={handleDemoButtonClick}>View project</button>
       </div>
     </div>

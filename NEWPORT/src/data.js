@@ -6,7 +6,7 @@ const projectsData = [
     url: "https://yuricooke.github.io/",
     imageUrl: "https://www.yuricooke.com/logos/back_603010.jpg",
     logo: "https://www.yuricooke.com/logos/603010.png",
-    description: "Color palette generator based on the 60|30|10 rule of UI/UX Design. MVP project of Puc-Rio's Fullstack Development postgraduate course",
+    description: "Color palette generator based on the 60|30|10 rule of UI/UX Design.<br /> MVP project of Puc-Rio's Fullstack Development postgraduate course",
     publicationDate: "2022-07-15",
     author: "Yuri Cooke",
     course: "Desenvolvimento Fullstack",
@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     id: 1,
-    title: "Formação dos Reinos Bárbaros",
+    title: "Rise of the Barbarian Kingdoms",
     url: "https://stensineme.blob.core.windows.net/hmlgrepoh/00212hu/04612/index.html",
     imageUrl: "https://stensineme.blob.core.windows.net/hmlgrepoh/00212hu/04612/img/capa-tema.jpg",
     logo: "https://www.yuricooke.com/logos/ReinosBarbaros.png",

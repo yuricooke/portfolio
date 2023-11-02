@@ -21,7 +21,6 @@ const Carousel = ({ children }) => {
   return (
     <div>
       <div className="arrows">
-        {/* Arrow buttons */}
         <ArrowButton direction="left" onClick={scrollLeft} />
         <ArrowButton direction="right" onClick={scrollRight} />
       </div>

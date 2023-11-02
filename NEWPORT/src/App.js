@@ -1,15 +1,30 @@
 import React, { useState, useEffect } from 'react';
+
+import ReactGA from "react-ga";
+
+import projectsData from './data';
+
+import NavBar from './NavBar';
 import Background from './Background';
 import Carousel from './Carousel';
 import Box from './Box';
 import Perfil from './Perfil';
 import Academico from './Academico';
 import Profissional from './Profissional';
-import NavBar from './NavBar';
 import Footer from './Footer';
-import projectsData from './data';
+
+ 
+const TRACKING_ID = "UA-89355742-2";
+ReactGA.initialize(TRACKING_ID);
+
 
 const App = () => {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
+
   const [backgroundImage, setBackgroundImage] = useState(projectsData[0]?.imageUrl || '');
   const [selectedProject, setSelectedProject] = useState(projectsData[0] || {});
   const [activeSection, setActiveSection] = useState('Projects');
@@ -46,13 +61,11 @@ const App = () => {
   }, []);
 
   return (
-    <div>
       <div className="app">
-        <NavBar onNavLinkClick={handleNavLinkClick} />
+        <NavBar onNavLinkClick={handleNavLinkClick} activeSection={activeSection}   />
         <div className='components'>
           <Background id='Projects'
             backgroundImage={`url(${backgroundImage})`}
-            onDemoButtonClick={() => window.open(selectedProject.url)}
             logo={selectedProject.logo}
             description={selectedProject.description}
             demoUrl={selectedProject.url}
@@ -70,10 +83,9 @@ const App = () => {
           <Perfil  />
           <Academico  />
           <Profissional />
+          <Footer className='footer' onFooterLinkClick={onFooterLinkClick} />
         </div>
       </div>
-      <Footer className='footer' onFooterLinkClick={onFooterLinkClick} />
-    </div>
   );
 };
 

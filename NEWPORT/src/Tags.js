@@ -20,23 +20,27 @@ const Tags = () => {
       window.addEventListener('scroll', highlightElementsOnScroll);
     return(
         <div className="tags">
-            <h2>My Skills</h2>
-            <h3>
-            <span className="highlight highlighted">Frontend</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">Backend</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">UI</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">UX</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">Visual Design</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">Accessibility</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">Python</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">React</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">SQL</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">JavaScript</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">Css/Scss</span>&nbsp;&nbsp;
-            <span className="highlight highlighted">HTML5</span>&nbsp;&nbsp;
+            <h3>Skills</h3>
+            <hr/> 
+            
+            <h4>
+            Frontend<br/>
+            Backend<br/>
+            UI<br/>
+            UX<br/>
+            Visual Design<br/>
+            A11Y<br/>
+            </h4>
+            <h4>
+            Python<br/>
+            React<br/>
+            SQL<br/>
+            JavaScript<br/>
+            Css/Scss<br/>
+            HTML5
+            </h4>
 
 
-            </h3>
         </div>
     )
 }

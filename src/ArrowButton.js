@@ -1,8 +1,6 @@
 // ArrowButton.js
 import React from 'react';
 import PropTypes from 'prop-types';
-import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 

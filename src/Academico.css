@@ -1,0 +1,209 @@
+
+.academico{
+    padding: 4% 5%;
+    color: #f0f0f0;
+    background: #0d0d0d;
+}
+
+.academic-header {
+  margin-bottom: 3rem;
+}
+
+.header-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-icon {
+  font-size: 2.5rem !important;
+  color: var(--primary, #4a9eff);
+}
+
+.academic-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Armata', sans-serif;
+}
+
+.section-subtitle {
+  margin: 0.5rem 0 0 0;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.academic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.university-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.university-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: #2a2a2a;
+  border-radius: 8px;
+  border: 2px solid var(--primary, #4a9eff);
+}
+
+.puc-logo{
+    max-height: 8rem;
+    width: auto;
+    filter: brightness(1.1);
+}
+
+.university-name {
+  flex: 1;
+}
+
+.university-name h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-family: 'Armata', sans-serif;
+}
+
+.university-name p {
+  margin: 0;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.degrees-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.degree-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.degree-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  background: var(--primary, #4a9eff);
+  border-radius: 8px;
+}
+
+.degree-icon {
+  font-size: 2rem !important;
+  color: white;
+}
+
+.degree-info {
+  flex: 1;
+}
+
+.degree-card h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Armata', sans-serif;
+}
+
+.degree-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary, #4a9eff);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Armata', sans-serif;
+}
+
+.dates {
+  color: #999999;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem 0;
+  font-style: italic;
+}
+
+.degree-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.highlight-tag {
+  padding: 0.4rem 0.9rem;
+  background-color: #2a2a2a;
+  color: #d0d0d0;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid #333;
+  transition: all 0.2s ease;
+}
+
+.highlight-tag:hover {
+  border-color: var(--primary, #4a9eff);
+  color: var(--primary, #4a9eff);
+}
+
+@media screen and (max-width: 768px) {
+  .academic-header h1 {
+    font-size: 2rem;
+  }
+
+  .section-icon {
+    font-size: 2rem !important;
+  }
+
+  .university-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .puc-logo {
+    max-height: 6rem;
+  }
+
+  .degrees-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .academico{
+    padding: 3% 3%;
+  }
+
+  .academic-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .degree-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .puc-logo {
+    max-height: 5rem;
+  }
+}

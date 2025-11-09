@@ -16,8 +16,8 @@ const NavBar = ({ onNavLinkClick, activeSection }) => {
   const githubLink = "https://github.com/yuricooke";
   const linkedinLink = "https://www.linkedin.com/in/yuricooke";
   const whatsappLink =
-    "https://wa.me/5521997423956/?text=Hi!%20I'm%20looking%20for%20an%20amazing%20front-end%20developer.";
-  const resumeLink = process.env.PUBLIC_URL + "/CV.pdf";
+    "https://wa.me/34678646990/?text=Hi!%20I'm%20looking%20for%20an%20amazing%20front-end%20developer.";
+  const resumeLink = process.env.PUBLIC_URL + "/Yuri_Cooke_Frontend_Developer.pdf";
 
   return (
     <div className="nav-bar">

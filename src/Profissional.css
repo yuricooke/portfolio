@@ -1,0 +1,230 @@
+
+.profissional{
+    padding: 4% 5%;
+    color: #f0f0f0;
+    background: #0d0d0d;
+}
+
+.section-header {
+  margin-bottom: 3rem;
+}
+
+.header-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-icon {
+  font-size: 2.5rem !important;
+  color: var(--primary, #4a9eff);
+}
+
+.section-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Armata', sans-serif;
+}
+
+.section-subtitle {
+  margin: 0.5rem 0 0 0;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.job-card {
+  padding: 2rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.job-card.current {
+  border: none;
+  background: #242424;
+}
+
+.job-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: var(--primary, #4a9eff);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.badge-icon {
+  font-size: 1rem !important;
+}
+
+.job-card h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+  color: #ffffff;
+  font-family: 'Armata', sans-serif;
+}
+
+.job-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary, #4a9eff);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Armata', sans-serif;
+}
+
+.location-date {
+  color: #999999;
+  font-size: 0.95rem;
+  margin: 0 0 1rem 0;
+  font-style: italic;
+}
+
+.description {
+  color: #cccccc;
+  line-height: 1.7;
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.tech-tag {
+  padding: 0.4rem 1rem;
+  background-color: #2a2a2a;
+  color: #d0d0d0;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #333;
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  border-color: var(--primary, #4a9eff);
+  color: var(--primary, #4a9eff);
+}
+
+.clients-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid #333;
+}
+
+.clients-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-family: 'Armata', sans-serif;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    align-items: center;
+}
+
+.client-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.logo{
+    max-height: 2.5rem;
+    width: auto;
+    filter: brightness(0.9);
+    transition: filter 0.3s ease;
+}
+
+.client-logo-wrapper:hover .logo {
+  filter: brightness(1.2);
+}
+
+
+@media screen and (max-width: 768px) {
+  .profissional {
+    padding: 3% 3%;
+  }
+
+  .section-header h1 {
+    font-size: 2rem;
+  }
+
+  .section-icon {
+    font-size: 2rem !important;
+  }
+
+  .job-card {
+    padding: 1.5rem;
+  }
+
+  .clients-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .client-logo-wrapper {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-icon {
+    font-size: 2.5rem !important;
+  }
+
+  .section-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .job-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .job-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .tech-tags {
+    gap: 0.5rem;
+  }
+
+  .tech-tag {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .clients-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logo{
+    max-height: 1.8rem;
+    width: auto;
+  }
+}

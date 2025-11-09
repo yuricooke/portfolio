@@ -1,34 +1,31 @@
 const projectsData = [
-  
   {
     id: 0,
-    title: "#603010 Generator",
-    url: "https://yuricooke.github.io/",
-    imageUrl: "https://www.yuricooke.com/logos/back_603010.jpg",
-    logo: "https://www.yuricooke.com/logos/603010.png",
-    description: "Color palette generator based on the 60|30|10 rule of UI/UX Design.<br /> MVP project of Puc-Rio's Fullstack Development postgraduate course",
-    publicationDate: "2022-07-15",
+    title: "Great.Hikes",
+    url: "https://great-hikes.vercel.app/",
+    imageUrl: "/images/03.jpg",
+    logo: "/images/great_hikes_ok.png",
+    description: "Hiking trail discovery platform built with modern web technologies. Find and explore hiking trails worldwide. MVP project.",
+    publicationDate: "2024-01-15",
     author: "Yuri Cooke",
-    course: "Desenvolvimento Fullstack",
+    course: "Web Development",
     genres: [
-      "Front-end",
-      "Back-end",
-      "Fullstack",
-      "Software engineer"
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Full-stack"
     ],
     hasUpdate: true,
     sections: 1,
-    translations: {
-      
-    },
-    goals: ["Bárbaros: do território imperial à formação dos reinos bárbaros", "Reinos bárbaros na Hispânia e Itália",  "Reino franco: entre merovíngios e carolíngios"]
+    translations: {},
+    goals: []
   },
   {
     id: 1,
     title: "Rise of the Barbarian Kingdoms",
     url: "https://stensineme.blob.core.windows.net/hmlgrepoh/00212hu/04612/index.html",
     imageUrl: "https://stensineme.blob.core.windows.net/hmlgrepoh/00212hu/04612/img/capa-tema.jpg",
-    logo: "https://www.yuricooke.com/logos/ReinosBarbaros.png",
+    logo: "/images/barbarian_kingdoms_logo.svg",
     description: "The context of transition from Antiquity to the Middle Ages from the perspective of the political and social formation of the barbarian kingdoms.",
     publicationDate: "2022-07-15",
     author: "Nathália Serenado",
@@ -106,36 +103,6 @@ const projectsData = [
         "Identificar os determinadores e os pronomes",
         "Descrever o caso genitivo"
     ]
-  },
-  {
-    id: 4,
-    title: "Introduction to R language",
-    url: "https://www.yuricooke.com/ead/R/",
-    imageUrl: "https://www.yuricooke.com/ead/R/img/Capa_b.jpg",
-    logo: "https://www.yuricooke.com/ead/R/img/logo_curso_url.png",
-    description: "Introduction to R language - Uniglobo.",
-    publicationDate: "2020-12-11",
-    author: "Diego Candido Abreu",
-    course: "Ciências Aeronuáticas",
-    genres: [
-        "Inglês",
-        "Aeronautica",
-        "Engenharia"
-    ],
-    sections: 4,
-    translations: {
-      english: "",
-      spanish: "",
-      german: "",
-    },
-    goals: [
-        "Distinguir adjetivos atributivos e adjetivos predicativosReconhecer a fraseologia correta de comunicação com controle de autorização de tráfego em inglês.",
-        "Identificar a fraseologia correta de comunicação com controle de solo em inglês.",
-        "Reconhecer a fraseologia correta de comunicação com a torre de controle em inglês.",
-        "Identificar a fraseologia correta de comunicação com o controle de partidas e chegadas em inglês.",
-    ]
-
-
   },
   {
     id: 5,
@@ -228,36 +195,6 @@ const projectsData = [
 
   },
   {
-    id: 8,
-    title: "Embapax ",
-    url: "https://www.embapax.com.br",
-    imageUrl: "https://www.yuricooke.com/logos/exemplo1.jpg",
-    description: "Home page & portfolio  - Embapax",
-    logo: "https://www.yuricooke.com/logos/logo.png",
-
-    publicationDate: "2023-09-20",
-    author: "Yuri Cooke",
-    course: "",
-    genres: [
-        "HTML",
-        "CSS",
-        "JavaScript"
-    ],
-    sections: 4,
-    translations: {
-      english: "",
-      spanish: "",
-      german: "",
-    },
-    goals: [
-        "To identify fricative consonants: labiodental, dental, alveolar, palato-alveolar, and glottal fricatives",
-        "To identify plosive consonants: bilabial, alveolar, and velar plosive",
-        "To classify consonants based on the degree of constriction",
-        "To recognize the context in which syllabic consonants can occur"
-    ]
-
-
-  },{
     id: 9,
     title: "The Noun Phrase in English",
     url: "https://stensineme.blob.core.windows.net/hmlgrepoh/o_sintagma_nominal_em_ingles/index.html",

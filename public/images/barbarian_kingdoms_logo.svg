@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path d="M 100 20 L 160 50 L 160 120 Q 160 160 100 180 Q 40 160 40 120 L 40 50 Z" fill="#8B4513" stroke="#5D2906" stroke-width="3"/>
+  
+  <!-- Inner shield detail -->
+  <path d="M 100 35 L 150 58 L 150 115 Q 150 145 100 162 Q 50 145 50 115 L 50 58 Z" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  
+  <!-- Sword -->
+  <rect x="95" y="60" width="10" height="80" fill="#C0C0C0" stroke="#808080" stroke-width="1"/>
+  <rect x="85" y="130" width="30" height="8" fill="#C0C0C0" stroke="#808080" stroke-width="1"/>
+  <polygon points="100,50 110,60 90,60" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  <rect x="97" y="138" width="6" height="15" fill="#8B4513" stroke="#5D2906" stroke-width="1"/>
+  
+  <!-- Crown on top -->
+  <polygon points="100,15 95,25 100,22 105,25" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  
+  <!-- Letters RBK -->
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFD700" text-anchor="middle" stroke="#5D2906" stroke-width="1">RBK</text>
+</svg>
+
